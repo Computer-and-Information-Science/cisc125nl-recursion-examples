@@ -1,2 +1,8 @@
-# cpp-debug
-Build/Run/Debug C++ File with Codespaces
+# Recursion Examples
+
+- Factorial
+- Power
+- Reverse String
+- Fibonacci
+- Star Pattern #1
+- Tower of Hanoi
