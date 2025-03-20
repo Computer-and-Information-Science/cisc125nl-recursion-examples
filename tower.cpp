@@ -1,3 +1,4 @@
+// The Tower of Hanoi Puzzle (to be completed in class)
 #include <iostream>
 using namespace std;
 
@@ -12,10 +13,6 @@ int main () {
 }
 
 void tower (int n, char source, char destination, char interim) {
-	if (n > 0) {
-		tower(n - 1, source, interim, destination);
-		cout << "Move disk " << n << " from " << source <<
-			" to " << destination << endl;
-		tower(n - 1, interim, destination, source);
-	}
+	// stub
+	cout << "Move disk " << n << " from " << source << " to " << destination << endl;
 }

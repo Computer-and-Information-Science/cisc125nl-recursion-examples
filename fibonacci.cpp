@@ -1,19 +1,17 @@
-// Print the first N Fibonacci Numbers
+// Print the first N Fibonacci Numbers (to be completed in class)
 #include <iostream>
 using namespace std;
 
 const int N = 20;
 
-int fib (int n);
+int fibonacci (int n);
 
 int main () {
 	for (int i = 1; i <= N; i++)
-		cout << ' ' << fib(i);
+		cout << ' ' << fibonacci(i);
 	cout << endl;
 }
 
-int fib (int n) {
-	if (n == 1 || n == 2)
-		return 1;
-	return fib(n - 1) + fib(n - 2);
+int fibonacci (int n) {
+	return 1; // stub
 }

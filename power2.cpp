@@ -1,3 +1,4 @@
+// Power - recursive version (to be completed in class)
 #include <iostream>
 using namespace std;
 
@@ -12,7 +13,5 @@ int main () {
 
 int power (int base, int exponent) {
 	// Assumes power is non-negative
-	if (exponent > 0)
-		return base * power(base, exponent - 1);
-	return 1;
+	return 1; // stub
 }
